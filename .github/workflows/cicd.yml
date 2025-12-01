@@ -1,3 +1,12 @@
-name: CICD Pipeline 
+name: Ganesh_pipeline
 
-  
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  complile: 
+    run-on: ubuntu-latest
+    steps: 
+      -name: cloning repo
+       uses: actionscheckput@v4
