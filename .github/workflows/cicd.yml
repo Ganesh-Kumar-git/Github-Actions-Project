@@ -6,7 +6,7 @@ on:
 
 jobs:
   complile: 
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
-      -name: cloning repo
-       uses: actionscheckput@v4
+      - name: cloning repo
+        uses: actionscheckput@v4
