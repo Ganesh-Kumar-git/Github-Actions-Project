@@ -1,4 +1,4 @@
-name: Ganesh_pipeline
+name: Ganesh pipeline
 
 on:
   push:
